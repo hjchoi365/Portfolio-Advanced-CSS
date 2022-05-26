@@ -11,13 +11,13 @@
 
 body {
     color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background: white;
 }
 
 header {
     padding: 20px 35px;
-    background-image: linear-gradient(orange, aqua);
+    background-image: linear-gradient(red, black);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -163,7 +163,7 @@ section {
     position: relative;
 }
 
-.project-img {
+.project_img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -182,8 +182,48 @@ figcaption {
     color: rgb(25, 40, 40);
 }
 
+.project-img1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    position: relative;
 
+}
 
+.project-img2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
 
+.contact-info2 {
+    flex: 150;
+}
+
+.contact-info2 ul {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: left;
+    list-style: none;
+    width: 100%;
+    margin-left: 15px;
+    justify-content: space-between;
+}
+
+.contact-info2 ul li a {
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 3px solid;
+    font-size: 18px;
+    margin: 0 30px;
+    color: var(--primary-color);
+}
+
+.resume {
+    color: blueviolet;
+    margin: 20px 20px;
+}
 
 
