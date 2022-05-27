@@ -59,7 +59,7 @@ section {
 .hero {
     height: 400px;
     background-image: url("../images/banner.jpg");
-    /*fix*/
+    /*fix later*/
     background-size: cover;
     background-position: center;
     display: flex;
@@ -219,7 +219,7 @@ figcaption {
 }
 
 .contact-info2 ul {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     align-items: left;
     list-style: none;
@@ -237,9 +237,92 @@ figcaption {
     color: var(--primary-color);
 }
 
-/* .resume {
-    color: blueviolet;
-    margin: 20px 20px;
-} */
+@media screen and (max-width:980px) {
+    header {
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    header h1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        justify-content: center;
+        line-height: 1.5;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    header nav ul li a {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .hero {
+        background-size: cover;
+    }
+
+    .image1 {
+        width: 100px;
+        height: 100px
+    }
+
+    .hero h2 {
+        margin-top: 350px;
+        font-size: 10px
+    }
+
+    .step-text p {
+        width: 85%;
+    }
+
+    .step-title {
+        text-align: right;
+        width: 100%;
+        font-weight: bold;
+    }
 
 
+    .divider1 {
+        height: 350px;
+    }
+
+    .divider2 {
+        height: 280px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .contact-info2 ul {
+        justify-content: left;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact-info2 ul li a {
+        line-height: 2;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .divider3 {
+        height: 180px;
+    }
+
+    .image2 {
+        top: 200px;
+    }
+
+    figcaption {
+        margin-top: -45%;
+        margin-left: 5px;
+        font-size: 5px;
+    }
+
+
+}
