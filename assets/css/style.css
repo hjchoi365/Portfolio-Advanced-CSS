@@ -15,6 +15,7 @@ body {
     background: white;
 }
 
+/* Header styles */
 header {
     padding: 20px 35px;
     background-color: rgb(175, 6, 175);
@@ -56,6 +57,7 @@ section {
     padding: 10px;
 }
 
+/* Hero image styles */
 .hero {
     height: 400px;
     background-image: url("../images/banner.jpg");
@@ -68,6 +70,7 @@ section {
     position: relative;
 }
 
+/* Picture of me */
 .image1 {
     position: absolute;
     top: 225px;
@@ -86,6 +89,7 @@ section {
     background-color: white
 }
 
+/* Style for Project section */
 .about {
     display: flex;
     flex-wrap: wrap;
@@ -213,7 +217,7 @@ figcaption {
     grid-row-end: 0;
 }
 
-
+/* About Section */
 .contact-info2 {
     flex: 150;
 }
@@ -237,6 +241,7 @@ figcaption {
     color: var(--primary-color);
 }
 
+/* Media Query styles */
 @media screen and (max-width:980px) {
     header {
         justify-content: center;
